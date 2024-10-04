@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser cache</title>
+</head>
+<style>
+    body {margin:0;}
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.855);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #c60a0ad9;
+    }
+    
+    .active {
+      background-color: #327318b5;
+    }
+    </style>
+    <br><br>
+<body>
+    <h1><I>Browser cache:</I></h1>
+    <p><I>Browser cache plays a vital role in web performance by decreasing the loading time. When a user visit any website and interct resources 
+      on the website it cache information for some period of time with expiry date. If user visit same website or visit different page on same site 
+      for second time then the browser cache shows result of resources without requesting resources to the server. By doing this it improve the faster
+      loading time and user friendly browsing experience.
+
+    </I></p>
+    <p><I>In the fast paced world user does not wait for resources to be open with dalays. <b>Study done by GOOGLE that 53% user abondoned resources if it takes longer
+      then 3 second to load resources.
+    </b>By implementing the browser cache web owner lower the load time and decrase the abondoned rate, improve the user satisfaction. </I></p>
+    <h1><I>How it works?</I></h1>
+    <p><I>Browser caching work by instructing the user browser for storing the resourceslocal by specific time being. When any user visit the resources
+      a rseponse header send to collect the information for time being. This browser caching is done by using the HTTP header such as cache-control which spcifies 
+      the caching policies. So when same user visit again same resources then data fetch by cache instead of requesting to server. 
+    </I></p>
+    <h1><I>Benifits of browser caching:</I></h1>
+    <p><I>Browser caching technique is one of the best way for enhacing the web performance.By implementing the browser caching technique make website user friendly.
+      it has following possible benfits.
+    </I></p>
+    <li><I><b>By implementing the browser caching method reduced the HTTPS request on the server reduce the load time and make website loading faster and improve user satisfaction </b></I></li><br>
+    <li><I><b>Instead of requesting resources from server which take longer then by providing data from local.This way it reduce the latency of loading web resources.</b></I></li><br>
+    <li><I><b>It reduce the load on the server so less traffic on server gives other user faster resources. </b></I></li>
+    
+    <img src="c:\Users\assta\OneDrive\Desktop\web develop\images\Pressidium_blogpost_04_05_2017-05.png" alt="" width="670">
+    <ul>
+        <li><a href="index.html" target="_blank">Website perfomance</a></li>
+        <li> <a href="using cdn.html" target="_blank">Using cdn</a></li>
+        <li><a href="browser cache.html" target="_blank">Browser cache</a></li>
+        <li><a href="compression.html" target="_blank">Compression</a></li>
+        <li><a href="manify code.html" target="_blank">Manify code</a></li>
+        <li><a href="lazy loading.html" target="_blank">Lazy loading</a></li>
+
+    </ul>
+    
+</body>
+</html>
